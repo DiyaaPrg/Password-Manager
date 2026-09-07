@@ -140,26 +140,7 @@ Example:
 
 ---
 
-## 🎯 What I Learned
 
-This project helped me practice and understand:
-
-- Object-Oriented Programming
-- 3-Tier application architecture
-- Database design and SQL Server
-- ADO.NET and data access
-- Symmetric encryption
-- Hashing and key derivation
-- PBKDF2, Salt, IV, KEK, and MEK
-- Secure handling of sensitive information
-- Session security and automatic locking
-- Clipboard security
-- Building a complete desktop application
-
----
-
-
----
 ---
 
 ## 🚀 Setup & Installation
