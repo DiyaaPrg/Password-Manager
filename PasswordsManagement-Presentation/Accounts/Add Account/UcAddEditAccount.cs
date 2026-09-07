@@ -3,6 +3,7 @@ using PasswordManagement_Business;
 using PasswordsManagement.Global;
 using PasswordsManagement.Properties;
 using PasswordsManagement_Business;
+using PasswordsManagement.Properties;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

@@ -1,4 +1,6 @@
-﻿namespace PasswordsManagement.Accounts.Show_Accounts
+﻿using PasswordsManagement.Properties;
+
+namespace PasswordsManagement.Accounts.Show_Accounts
 {
     partial class UcFavoriteAccounts
     {
@@ -173,7 +175,7 @@
             // 
             showDetailsToolStripMenuItem.AutoSize = false;
             showDetailsToolStripMenuItem.Font = new Font("Segoe UI", 14F);
-            showDetailsToolStripMenuItem.Image = Properties.Resources.PersonDetails_32;
+            showDetailsToolStripMenuItem.Image = Resources.PersonDetails_32;
             showDetailsToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
             showDetailsToolStripMenuItem.Name = "showDetailsToolStripMenuItem";
             showDetailsToolStripMenuItem.Size = new Size(265, 35);
@@ -189,7 +191,7 @@
             // 
             addAccountToolStripMenuItem.AutoSize = false;
             addAccountToolStripMenuItem.Font = new Font("Segoe UI", 13F);
-            addAccountToolStripMenuItem.Image = Properties.Resources.add_user__32_;
+            addAccountToolStripMenuItem.Image = Resources.add_user__32_;
             addAccountToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
             addAccountToolStripMenuItem.Name = "addAccountToolStripMenuItem";
             addAccountToolStripMenuItem.Size = new Size(265, 35);
@@ -200,7 +202,7 @@
             // 
             editToolStripMenuItem.AutoSize = false;
             editToolStripMenuItem.Font = new Font("Segoe UI", 13F);
-            editToolStripMenuItem.Image = Properties.Resources.edit_info__32_;
+            editToolStripMenuItem.Image = Resources.edit_info__32_;
             editToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
             editToolStripMenuItem.Name = "editToolStripMenuItem";
             editToolStripMenuItem.Size = new Size(265, 35);
@@ -210,7 +212,7 @@
             // removeFromFavoritesToolStripMenuItem
             // 
             removeFromFavoritesToolStripMenuItem.Font = new Font("Segoe UI", 13F);
-            removeFromFavoritesToolStripMenuItem.Image = Properties.Resources.removeFromFavorite_32_;
+            removeFromFavoritesToolStripMenuItem.Image = Resources.removeFromFavorite_32_;
             removeFromFavoritesToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
             removeFromFavoritesToolStripMenuItem.Name = "removeFromFavoritesToolStripMenuItem";
             removeFromFavoritesToolStripMenuItem.Size = new Size(281, 38);
@@ -247,7 +249,7 @@
             btnGoToAccounts.FillColor = SystemColors.Highlight;
             btnGoToAccounts.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
             btnGoToAccounts.ForeColor = Color.White;
-            btnGoToAccounts.Image = Properties.Resources.key__64_;
+            btnGoToAccounts.Image = Resources.key__64_;
             btnGoToAccounts.ImageAlign = HorizontalAlignment.Left;
             btnGoToAccounts.ImageSize = new Size(30, 30);
             btnGoToAccounts.Location = new Point(136, 262);
@@ -294,7 +296,7 @@
             // guna2PictureBox1
             // 
             guna2PictureBox1.CustomizableEdges = customizableEdges3;
-            guna2PictureBox1.Image = Properties.Resources.star_512_;
+            guna2PictureBox1.Image = Resources.star_512_;
             guna2PictureBox1.ImageRotate = 0F;
             guna2PictureBox1.Location = new Point(10, 10);
             guna2PictureBox1.Name = "guna2PictureBox1";

@@ -1,4 +1,6 @@
-﻿namespace PasswordsManagement.Accounts.Show_Accounts
+﻿using PasswordsManagement.Properties;
+
+namespace PasswordsManagement.Accounts.Show_Accounts
 {
     partial class FrmQuickView
     {
@@ -125,7 +127,7 @@
             // 
             guna2PictureBox2.Cursor = Cursors.Hand;
             guna2PictureBox2.CustomizableEdges = customizableEdges1;
-            guna2PictureBox2.Image = Properties.Resources.close__32_;
+            guna2PictureBox2.Image = Resources.close__32_;
             guna2PictureBox2.ImageRotate = 0F;
             guna2PictureBox2.Location = new Point(703, 19);
             guna2PictureBox2.Name = "guna2PictureBox2";
@@ -175,7 +177,7 @@
             // pbStar
             // 
             pbStar.CustomizableEdges = customizableEdges7;
-            pbStar.Image = Properties.Resources.star__32_;
+            pbStar.Image = Resources.star__32_;
             pbStar.ImageRotate = 0F;
             pbStar.Location = new Point(318, 24);
             pbStar.Name = "pbStar";
@@ -239,7 +241,7 @@
             tbusername.Font = new Font("Segoe UI", 12F);
             tbusername.ForeColor = Color.Black;
             tbusername.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbusername.IconRight = Properties.Resources.copy__24_;
+            tbusername.IconRight = Resources.copy__24_;
             tbusername.Location = new Point(23, 179);
             tbusername.Margin = new Padding(4);
             tbusername.Name = "tbusername";
@@ -265,7 +267,7 @@
             tbWebsiteUrl.Font = new Font("Segoe UI", 12F);
             tbWebsiteUrl.ForeColor = Color.Black;
             tbWebsiteUrl.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbWebsiteUrl.IconRight = Properties.Resources.external_link_icon_32_;
+            tbWebsiteUrl.IconRight = Resources.external_link_icon_32_;
             tbWebsiteUrl.Location = new Point(405, 179);
             tbWebsiteUrl.Margin = new Padding(4);
             tbWebsiteUrl.Name = "tbWebsiteUrl";
@@ -329,7 +331,7 @@
             btnCopyPassword.FillColor = Color.White;
             btnCopyPassword.Font = new Font("Segoe UI", 12F);
             btnCopyPassword.ForeColor = Color.FromArgb(75, 85, 99);
-            btnCopyPassword.Image = Properties.Resources.copy__32___black_;
+            btnCopyPassword.Image = Resources.copy__32___black_;
             btnCopyPassword.ImageAlign = HorizontalAlignment.Left;
             btnCopyPassword.Location = new Point(263, 109);
             btnCopyPassword.Name = "btnCopyPassword";
@@ -352,7 +354,7 @@
             btnShowPassword.FillColor = Color.White;
             btnShowPassword.Font = new Font("Segoe UI", 12F);
             btnShowPassword.ForeColor = Color.FromArgb(75, 85, 99);
-            btnShowPassword.Image = Properties.Resources.view;
+            btnShowPassword.Image = Resources.view;
             btnShowPassword.ImageAlign = HorizontalAlignment.Left;
             btnShowPassword.Location = new Point(25, 109);
             btnShowPassword.Name = "btnShowPassword";
@@ -505,7 +507,7 @@
             btnEditAccount.FillColor = Color.FromArgb(37, 99, 235);
             btnEditAccount.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnEditAccount.ForeColor = Color.White;
-            btnEditAccount.Image = Properties.Resources.edit__32_;
+            btnEditAccount.Image = Resources.edit__32_;
             btnEditAccount.ImageAlign = HorizontalAlignment.Left;
             btnEditAccount.Location = new Point(552, 27);
             btnEditAccount.Name = "btnEditAccount";
@@ -528,7 +530,7 @@
             btnClose.FillColor = Color.White;
             btnClose.Font = new Font("Segoe UI", 12F);
             btnClose.ForeColor = Color.FromArgb(75, 85, 99);
-            btnClose.Image = Properties.Resources.cancel__32_;
+            btnClose.Image = Resources.cancel__32_;
             btnClose.ImageAlign = HorizontalAlignment.Left;
             btnClose.Location = new Point(409, 27);
             btnClose.Name = "btnClose";
@@ -567,7 +569,7 @@
             tbEmail.Font = new Font("Segoe UI", 12F);
             tbEmail.ForeColor = Color.Black;
             tbEmail.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbEmail.IconRight = Properties.Resources.copy__24_;
+            tbEmail.IconRight = Resources.copy__24_;
             tbEmail.Location = new Point(23, 263);
             tbEmail.Margin = new Padding(4);
             tbEmail.Name = "tbEmail";
@@ -603,7 +605,7 @@
             tbPhone.Font = new Font("Segoe UI", 12F);
             tbPhone.ForeColor = Color.Black;
             tbPhone.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbPhone.IconRight = Properties.Resources.copy__24_;
+            tbPhone.IconRight = Resources.copy__24_;
             tbPhone.Location = new Point(402, 263);
             tbPhone.Margin = new Padding(4);
             tbPhone.Name = "tbPhone";

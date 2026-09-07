@@ -1,4 +1,6 @@
-﻿namespace PasswordsManagement
+﻿using PasswordsManagement.Properties;
+
+namespace PasswordsManagement
 {
     partial class FrmLogin
     {
@@ -206,8 +208,8 @@
             tbMasterPassword.Font = new Font("Segoe UI", 14F);
             tbMasterPassword.ForeColor = Color.Black;
             tbMasterPassword.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbMasterPassword.IconLeft = Properties.Resources.Lock__64_;
-            tbMasterPassword.IconRight = Properties.Resources.hide;
+            tbMasterPassword.IconLeft = Resources.Lock__64_;
+            tbMasterPassword.IconRight = Resources.hide;
             tbMasterPassword.Location = new Point(43, 239);
             tbMasterPassword.Margin = new Padding(6, 7, 6, 7);
             tbMasterPassword.MaxLength = 30;
@@ -249,7 +251,7 @@
             tbUsername.Font = new Font("Segoe UI", 14F);
             tbUsername.ForeColor = Color.Black;
             tbUsername.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbUsername.IconLeft = Properties.Resources.Accounts__64_;
+            tbUsername.IconLeft = Resources.Accounts__64_;
             tbUsername.Location = new Point(40, 142);
             tbUsername.Margin = new Padding(5);
             tbUsername.MaxLength = 20;
@@ -313,7 +315,7 @@
             // 
             guna2PictureBox1.BackColor = Color.Transparent;
             guna2PictureBox1.CustomizableEdges = customizableEdges15;
-            guna2PictureBox1.Image = Properties.Resources.vaultguard_logo;
+            guna2PictureBox1.Image = Resources.vaultguard_logo;
             guna2PictureBox1.ImageRotate = 0F;
             guna2PictureBox1.Location = new Point(-48, 0);
             guna2PictureBox1.Name = "guna2PictureBox1";
@@ -356,7 +358,7 @@
             // 
             guna2PictureBox2.BorderRadius = 4;
             guna2PictureBox2.CustomizableEdges = customizableEdges13;
-            guna2PictureBox2.Image = Properties.Resources.Gemini_Generated_Image_ed5ovped5ovped5o;
+            guna2PictureBox2.Image = Resources.Gemini_Generated_Image_ed5ovped5ovped5o;
             guna2PictureBox2.ImageRotate = 0F;
             guna2PictureBox2.Location = new Point(165, 129);
             guna2PictureBox2.Name = "guna2PictureBox2";

@@ -1,4 +1,6 @@
-﻿namespace PasswordsManagement.Accounts.Show_Accounts
+﻿using PasswordsManagement.Properties;
+
+namespace PasswordsManagement.Accounts.Show_Accounts
 {
     partial class UcManageAccounts
     {
@@ -176,7 +178,7 @@
             // guna2PictureBox1
             // 
             guna2PictureBox1.CustomizableEdges = customizableEdges1;
-            guna2PictureBox1.Image = Properties.Resources.locked__32_;
+            guna2PictureBox1.Image = Resources.locked__32_;
             guna2PictureBox1.ImageRotate = 0F;
             guna2PictureBox1.Location = new Point(12, 12);
             guna2PictureBox1.Name = "guna2PictureBox1";
@@ -239,7 +241,7 @@
             // guna2PictureBox2
             // 
             guna2PictureBox2.CustomizableEdges = customizableEdges7;
-            guna2PictureBox2.Image = Properties.Resources.insurance__32_;
+            guna2PictureBox2.Image = Resources.insurance__32_;
             guna2PictureBox2.ImageRotate = 0F;
             guna2PictureBox2.Location = new Point(12, 12);
             guna2PictureBox2.Name = "guna2PictureBox2";
@@ -302,7 +304,7 @@
             // guna2PictureBox3
             // 
             guna2PictureBox3.CustomizableEdges = customizableEdges13;
-            guna2PictureBox3.Image = Properties.Resources.star__32_;
+            guna2PictureBox3.Image = Resources.star__32_;
             guna2PictureBox3.ImageRotate = 0F;
             guna2PictureBox3.Location = new Point(12, 12);
             guna2PictureBox3.Name = "guna2PictureBox3";
@@ -365,7 +367,7 @@
             // guna2PictureBox4
             // 
             guna2PictureBox4.CustomizableEdges = customizableEdges19;
-            guna2PictureBox4.Image = Properties.Resources.prohibition__32_;
+            guna2PictureBox4.Image = Resources.prohibition__32_;
             guna2PictureBox4.ImageRotate = 0F;
             guna2PictureBox4.Location = new Point(12, 12);
             guna2PictureBox4.Name = "guna2PictureBox4";
@@ -402,7 +404,7 @@
             btnAddAccount.FillColor = Color.FromArgb(37, 99, 235);
             btnAddAccount.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAddAccount.ForeColor = Color.White;
-            btnAddAccount.Image = Properties.Resources.plus_32_;
+            btnAddAccount.Image = Resources.plus_32_;
             btnAddAccount.ImageAlign = HorizontalAlignment.Left;
             btnAddAccount.Location = new Point(1370, 24);
             btnAddAccount.Name = "btnAddAccount";
@@ -464,7 +466,7 @@
             tbSearch.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             tbSearch.Font = new Font("Segoe UI", 13F);
             tbSearch.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbSearch.IconLeft = Properties.Resources.search__32_;
+            tbSearch.IconLeft = Resources.search__32_;
             tbSearch.IconLeftOffset = new Point(12, 0);
             tbSearch.Location = new Point(514, 19);
             tbSearch.Margin = new Padding(4, 5, 4, 5);
@@ -580,7 +582,7 @@
             // 
             showDetailsToolStripMenuItem.AutoSize = false;
             showDetailsToolStripMenuItem.Font = new Font("Segoe UI", 14F);
-            showDetailsToolStripMenuItem.Image = Properties.Resources.PersonDetails_32;
+            showDetailsToolStripMenuItem.Image = Resources.PersonDetails_32;
             showDetailsToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
             showDetailsToolStripMenuItem.Name = "showDetailsToolStripMenuItem";
             showDetailsToolStripMenuItem.Size = new Size(255, 35);
@@ -596,7 +598,7 @@
             // 
             addAccountToolStripMenuItem.AutoSize = false;
             addAccountToolStripMenuItem.Font = new Font("Segoe UI", 13F);
-            addAccountToolStripMenuItem.Image = Properties.Resources.add_user__32_;
+            addAccountToolStripMenuItem.Image = Resources.add_user__32_;
             addAccountToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
             addAccountToolStripMenuItem.Name = "addAccountToolStripMenuItem";
             addAccountToolStripMenuItem.Size = new Size(255, 35);
@@ -607,7 +609,7 @@
             // 
             editToolStripMenuItem.AutoSize = false;
             editToolStripMenuItem.Font = new Font("Segoe UI", 13F);
-            editToolStripMenuItem.Image = Properties.Resources.edit_info__32_;
+            editToolStripMenuItem.Image = Resources.edit_info__32_;
             editToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
             editToolStripMenuItem.Name = "editToolStripMenuItem";
             editToolStripMenuItem.Size = new Size(255, 35);
@@ -618,7 +620,7 @@
             // 
             disableToolStripMenuItem.AutoSize = false;
             disableToolStripMenuItem.Font = new Font("Segoe UI", 13F);
-            disableToolStripMenuItem.Image = Properties.Resources.disable_account__32_;
+            disableToolStripMenuItem.Image = Resources.disable_account__32_;
             disableToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
             disableToolStripMenuItem.Name = "disableToolStripMenuItem";
             disableToolStripMenuItem.Size = new Size(255, 35);
@@ -629,7 +631,7 @@
             // 
             markAsFavoriteToolStripMenuItem.AutoSize = false;
             markAsFavoriteToolStripMenuItem.Font = new Font("Segoe UI", 13F);
-            markAsFavoriteToolStripMenuItem.Image = Properties.Resources.star__32_;
+            markAsFavoriteToolStripMenuItem.Image = Resources.star__32_;
             markAsFavoriteToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
             markAsFavoriteToolStripMenuItem.Name = "markAsFavoriteToolStripMenuItem";
             markAsFavoriteToolStripMenuItem.Size = new Size(255, 38);

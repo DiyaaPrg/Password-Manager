@@ -1,4 +1,6 @@
-﻿namespace PasswordsManagement.History
+﻿using PasswordsManagement.Properties;
+
+namespace PasswordsManagement.History
 {
     partial class UcHistory
     {
@@ -166,7 +168,7 @@
             btnDeleteAllRecords.FillColor = Color.Transparent;
             btnDeleteAllRecords.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             btnDeleteAllRecords.ForeColor = Color.FromArgb(75, 85, 99);
-            btnDeleteAllRecords.Image = Properties.Resources.delete;
+            btnDeleteAllRecords.Image = Resources.delete;
             btnDeleteAllRecords.ImageAlign = HorizontalAlignment.Left;
             btnDeleteAllRecords.ImageSize = new Size(30, 30);
             btnDeleteAllRecords.Location = new Point(695, 964);

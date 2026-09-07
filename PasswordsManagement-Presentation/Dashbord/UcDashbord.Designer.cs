@@ -1,4 +1,6 @@
-﻿namespace PasswordsManagement.Dashbord
+﻿using PasswordsManagement.Properties;
+
+namespace PasswordsManagement.Dashbord
 {
     partial class UcDashbord
     {
@@ -179,7 +181,7 @@
             btnEditAccount2.FillColor = Color.FromArgb(37, 99, 235);
             btnEditAccount2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnEditAccount2.ForeColor = Color.White;
-            btnEditAccount2.Image = Properties.Resources.plus_32_;
+            btnEditAccount2.Image = Resources.plus_32_;
             btnEditAccount2.ImageAlign = HorizontalAlignment.Left;
             btnEditAccount2.Location = new Point(1384, 39);
             btnEditAccount2.Name = "btnEditAccount2";
@@ -254,7 +256,7 @@
             // guna2PictureBox1
             // 
             guna2PictureBox1.CustomizableEdges = customizableEdges103;
-            guna2PictureBox1.Image = Properties.Resources.star_512_;
+            guna2PictureBox1.Image = Resources.star_512_;
             guna2PictureBox1.ImageRotate = 0F;
             guna2PictureBox1.Location = new Point(10, 10);
             guna2PictureBox1.Name = "guna2PictureBox1";
@@ -329,7 +331,7 @@
             // guna2PictureBox3
             // 
             guna2PictureBox3.CustomizableEdges = customizableEdges109;
-            guna2PictureBox3.Image = Properties.Resources.menu__32_;
+            guna2PictureBox3.Image = Resources.menu__32_;
             guna2PictureBox3.ImageRotate = 0F;
             guna2PictureBox3.Location = new Point(12, 12);
             guna2PictureBox3.Name = "guna2PictureBox3";
@@ -405,7 +407,7 @@
             // guna2PictureBox2
             // 
             guna2PictureBox2.CustomizableEdges = customizableEdges115;
-            guna2PictureBox2.Image = Properties.Resources.locked__32_;
+            guna2PictureBox2.Image = Resources.locked__32_;
             guna2PictureBox2.ImageRotate = 0F;
             guna2PictureBox2.Location = new Point(12, 12);
             guna2PictureBox2.Name = "guna2PictureBox2";
@@ -468,7 +470,7 @@
             // guna2PictureBox4
             // 
             guna2PictureBox4.CustomizableEdges = customizableEdges121;
-            guna2PictureBox4.Image = Properties.Resources.security_512_;
+            guna2PictureBox4.Image = Resources.security_512_;
             guna2PictureBox4.ImageRotate = 0F;
             guna2PictureBox4.Location = new Point(28, 284);
             guna2PictureBox4.Name = "guna2PictureBox4";
@@ -543,7 +545,7 @@
             // guna2PictureBox7
             // 
             guna2PictureBox7.CustomizableEdges = customizableEdges123;
-            guna2PictureBox7.Image = Properties.Resources.check_512_;
+            guna2PictureBox7.Image = Resources.check_512_;
             guna2PictureBox7.ImageRotate = 0F;
             guna2PictureBox7.Location = new Point(5, 3);
             guna2PictureBox7.Name = "guna2PictureBox7";
@@ -618,7 +620,7 @@
             // guna2PictureBox5
             // 
             guna2PictureBox5.CustomizableEdges = customizableEdges129;
-            guna2PictureBox5.Image = Properties.Resources.warning_512_;
+            guna2PictureBox5.Image = Resources.warning_512_;
             guna2PictureBox5.ImageRotate = 0F;
             guna2PictureBox5.Location = new Point(5, 3);
             guna2PictureBox5.Name = "guna2PictureBox5";
@@ -652,7 +654,7 @@
             // guna2PictureBox6
             // 
             guna2PictureBox6.CustomizableEdges = customizableEdges135;
-            guna2PictureBox6.Image = Properties.Resources.recycling_512_;
+            guna2PictureBox6.Image = Resources.recycling_512_;
             guna2PictureBox6.ImageRotate = 0F;
             guna2PictureBox6.Location = new Point(194, 13);
             guna2PictureBox6.Name = "guna2PictureBox6";
@@ -750,7 +752,7 @@
             // guna2PictureBox9
             // 
             guna2PictureBox9.CustomizableEdges = customizableEdges145;
-            guna2PictureBox9.Image = Properties.Resources.icons8_orange_circle_48;
+            guna2PictureBox9.Image = Resources.icons8_orange_circle_48;
             guna2PictureBox9.ImageRotate = 0F;
             guna2PictureBox9.Location = new Point(132, 163);
             guna2PictureBox9.Name = "guna2PictureBox9";
@@ -763,7 +765,7 @@
             // guna2PictureBox8
             // 
             guna2PictureBox8.CustomizableEdges = customizableEdges147;
-            guna2PictureBox8.Image = Properties.Resources.icons8_green_dot_48;
+            guna2PictureBox8.Image = Resources.icons8_green_dot_48;
             guna2PictureBox8.ImageRotate = 0F;
             guna2PictureBox8.Location = new Point(16, 164);
             guna2PictureBox8.Name = "guna2PictureBox8";

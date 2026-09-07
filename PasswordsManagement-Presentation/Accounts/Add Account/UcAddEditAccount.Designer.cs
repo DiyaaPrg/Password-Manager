@@ -1,4 +1,6 @@
-﻿namespace PasswordsManagement.Add_Account
+﻿using PasswordsManagement.Properties;
+
+namespace PasswordsManagement.Add_Account
 {
     partial class UcAddEditAccount
     {
@@ -151,7 +153,7 @@
             tbWebsiteUrl.Font = new Font("Segoe UI", 14F);
             tbWebsiteUrl.ForeColor = Color.Black;
             tbWebsiteUrl.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbWebsiteUrl.IconLeft = Properties.Resources.link__64_;
+            tbWebsiteUrl.IconLeft = Resources.link__64_;
             tbWebsiteUrl.Location = new Point(5, 143);
             tbWebsiteUrl.Margin = new Padding(5);
             tbWebsiteUrl.MaxLength = 60;
@@ -188,7 +190,7 @@
             tbServiceName.Font = new Font("Segoe UI", 14F);
             tbServiceName.ForeColor = Color.Black;
             tbServiceName.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbServiceName.IconLeft = Properties.Resources.global__64_;
+            tbServiceName.IconLeft = Resources.global__64_;
             tbServiceName.Location = new Point(5, 36);
             tbServiceName.Margin = new Padding(5);
             tbServiceName.MaxLength = 40;
@@ -240,7 +242,7 @@
             tbUsername.Font = new Font("Segoe UI", 14F);
             tbUsername.ForeColor = Color.Black;
             tbUsername.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbUsername.IconLeft = Properties.Resources.Accounts__64_;
+            tbUsername.IconLeft = Resources.Accounts__64_;
             tbUsername.Location = new Point(15, 143);
             tbUsername.Margin = new Padding(5);
             tbUsername.MaxLength = 40;
@@ -319,7 +321,7 @@
             tbPhone.Font = new Font("Segoe UI", 14F);
             tbPhone.ForeColor = Color.Black;
             tbPhone.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbPhone.IconLeft = Properties.Resources.Accounts__64_;
+            tbPhone.IconLeft = Resources.Accounts__64_;
             tbPhone.Location = new Point(9, 47);
             tbPhone.Margin = new Padding(5);
             tbPhone.MaxLength = 40;
@@ -355,7 +357,7 @@
             tbEmail.Font = new Font("Segoe UI", 14F);
             tbEmail.ForeColor = Color.Black;
             tbEmail.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbEmail.IconLeft = Properties.Resources.Accounts__64_;
+            tbEmail.IconLeft = Resources.Accounts__64_;
             tbEmail.Location = new Point(9, 150);
             tbEmail.Margin = new Padding(5);
             tbEmail.MaxLength = 40;
@@ -405,7 +407,7 @@
             btnGeneratePassword.FillColor = SystemColors.Highlight;
             btnGeneratePassword.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             btnGeneratePassword.ForeColor = Color.White;
-            btnGeneratePassword.Image = Properties.Resources.ai_technology__24_;
+            btnGeneratePassword.Image = Resources.ai_technology__24_;
             btnGeneratePassword.ImageAlign = HorizontalAlignment.Left;
             btnGeneratePassword.ImageSize = new Size(30, 30);
             btnGeneratePassword.Location = new Point(556, 47);
@@ -453,8 +455,8 @@
             tbMasterPassword.Font = new Font("Segoe UI", 14F);
             tbMasterPassword.ForeColor = Color.Black;
             tbMasterPassword.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbMasterPassword.IconLeft = Properties.Resources.key__64_;
-            tbMasterPassword.IconRight = Properties.Resources.hide;
+            tbMasterPassword.IconLeft = Resources.key__64_;
+            tbMasterPassword.IconRight = Resources.hide;
             tbMasterPassword.Location = new Point(15, 47);
             tbMasterPassword.Margin = new Padding(5);
             tbMasterPassword.MaxLength = 40;
@@ -514,7 +516,7 @@
             btnSave.FillColor = SystemColors.Highlight;
             btnSave.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             btnSave.ForeColor = Color.White;
-            btnSave.Image = Properties.Resources.check_mark;
+            btnSave.Image = Resources.check_mark;
             btnSave.ImageAlign = HorizontalAlignment.Left;
             btnSave.ImageSize = new Size(30, 30);
             btnSave.Location = new Point(1391, 926);

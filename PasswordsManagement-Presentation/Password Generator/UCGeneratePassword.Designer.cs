@@ -1,4 +1,6 @@
-﻿namespace PasswordsManagement.Password_Generator
+﻿using PasswordsManagement.Properties;
+
+namespace PasswordsManagement.Password_Generator
 {
     partial class UCGeneratePassword
     {
@@ -80,7 +82,7 @@
             // 
             pbCopyPassword.Cursor = Cursors.Hand;
             pbCopyPassword.CustomizableEdges = customizableEdges1;
-            pbCopyPassword.Image = Properties.Resources.copy__24_;
+            pbCopyPassword.Image = Resources.copy__24_;
             pbCopyPassword.ImageRotate = 0F;
             pbCopyPassword.Location = new Point(748, 21);
             pbCopyPassword.Name = "pbCopyPassword";
@@ -256,7 +258,7 @@
             btnGeneratePassword.FillColor = SystemColors.Highlight;
             btnGeneratePassword.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             btnGeneratePassword.ForeColor = Color.White;
-            btnGeneratePassword.Image = Properties.Resources.ai_technology__24_;
+            btnGeneratePassword.Image = Resources.ai_technology__24_;
             btnGeneratePassword.ImageAlign = HorizontalAlignment.Left;
             btnGeneratePassword.ImageSize = new Size(30, 30);
             btnGeneratePassword.Location = new Point(703, 763);

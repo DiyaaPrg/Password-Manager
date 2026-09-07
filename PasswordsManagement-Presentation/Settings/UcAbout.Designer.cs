@@ -1,4 +1,6 @@
-﻿namespace PasswordsManagement.Settings
+﻿using PasswordsManagement.Properties;
+
+namespace PasswordsManagement.Settings
 {
     partial class UcAbout
     {
@@ -102,7 +104,7 @@
             // 
             // pictureBox5
             // 
-            pictureBox5.Image = Properties.Resources.verified;
+            pictureBox5.Image = Resources.verified;
             pictureBox5.Location = new Point(541, 339);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(43, 42);
@@ -131,7 +133,7 @@
             // 
             // pictureBox4
             // 
-            pictureBox4.Image = Properties.Resources.vaultguard_logo;
+            pictureBox4.Image = Resources.vaultguard_logo;
             pictureBox4.Location = new Point(485, 79);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(470, 129);
@@ -141,7 +143,7 @@
             // 
             // pictureBox3
             // 
-            pictureBox3.Image = Properties.Resources.about;
+            pictureBox3.Image = Resources.about;
             pictureBox3.Location = new Point(41, 15);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(43, 42);

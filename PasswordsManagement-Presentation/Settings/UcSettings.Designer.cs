@@ -1,4 +1,6 @@
-﻿namespace PasswordsManagement.Settings
+﻿using PasswordsManagement.Properties;
+
+namespace PasswordsManagement.Settings
 {
     partial class UcSettings
     {
@@ -122,7 +124,7 @@
             btnSetToDefault.FillColor = SystemColors.WindowFrame;
             btnSetToDefault.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             btnSetToDefault.ForeColor = Color.White;
-            btnSetToDefault.Image = Properties.Resources.set_to_default__512_;
+            btnSetToDefault.Image = Resources.set_to_default__512_;
             btnSetToDefault.ImageAlign = HorizontalAlignment.Left;
             btnSetToDefault.ImageSize = new Size(30, 30);
             btnSetToDefault.Location = new Point(53, 992);
@@ -167,7 +169,7 @@
             btnSave.FillColor = SystemColors.Highlight;
             btnSave.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             btnSave.ForeColor = Color.White;
-            btnSave.Image = Properties.Resources.check_mark;
+            btnSave.Image = Resources.check_mark;
             btnSave.ImageAlign = HorizontalAlignment.Left;
             btnSave.ImageSize = new Size(30, 30);
             btnSave.Location = new Point(1406, 992);
@@ -297,7 +299,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = Properties.Resources.appearance;
+            pictureBox2.Image = Resources.appearance;
             pictureBox2.Location = new Point(41, 15);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(43, 42);
@@ -373,7 +375,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.security;
+            pictureBox1.Image = Resources.security;
             pictureBox1.Location = new Point(41, 15);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(43, 42);

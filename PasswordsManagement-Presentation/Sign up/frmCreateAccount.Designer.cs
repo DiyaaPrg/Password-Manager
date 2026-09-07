@@ -1,4 +1,6 @@
-﻿namespace PasswordsManagement
+﻿using PasswordsManagement.Properties;
+
+namespace PasswordsManagement
 {
     partial class frmCreateAccount
     {
@@ -132,7 +134,7 @@
             // 
             guna2PictureBox2.BorderRadius = 4;
             guna2PictureBox2.CustomizableEdges = customizableEdges1;
-            guna2PictureBox2.Image = Properties.Resources.Gemini_Generated_Image_ed5ovped5ovped5o;
+            guna2PictureBox2.Image = Resources.Gemini_Generated_Image_ed5ovped5ovped5o;
             guna2PictureBox2.ImageRotate = 0F;
             guna2PictureBox2.Location = new Point(40, 324);
             guna2PictureBox2.Name = "guna2PictureBox2";
@@ -175,7 +177,7 @@
             // guna2PictureBox1
             // 
             guna2PictureBox1.CustomizableEdges = customizableEdges3;
-            guna2PictureBox1.Image = Properties.Resources.vaultguard_logo;
+            guna2PictureBox1.Image = Resources.vaultguard_logo;
             guna2PictureBox1.ImageRotate = 0F;
             guna2PictureBox1.Location = new Point(-61, 39);
             guna2PictureBox1.Name = "guna2PictureBox1";
@@ -294,7 +296,7 @@
             tbPasswordHint.Font = new Font("Segoe UI", 14F);
             tbPasswordHint.ForeColor = Color.Black;
             tbPasswordHint.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbPasswordHint.IconLeft = Properties.Resources.light__64_;
+            tbPasswordHint.IconLeft = Resources.light__64_;
             tbPasswordHint.Location = new Point(43, 453);
             tbPasswordHint.Margin = new Padding(6, 7, 6, 7);
             tbPasswordHint.MaxLength = 30;
@@ -341,7 +343,7 @@
             tbConfirmMasterPassword.Font = new Font("Segoe UI", 14F);
             tbConfirmMasterPassword.ForeColor = Color.Black;
             tbConfirmMasterPassword.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbConfirmMasterPassword.IconLeft = Properties.Resources.Lock__64_;
+            tbConfirmMasterPassword.IconLeft = Resources.Lock__64_;
             tbConfirmMasterPassword.Location = new Point(43, 363);
             tbConfirmMasterPassword.Margin = new Padding(6, 7, 6, 7);
             tbConfirmMasterPassword.MaxLength = 30;
@@ -370,8 +372,8 @@
             tbMasterPassword.Font = new Font("Segoe UI", 14F);
             tbMasterPassword.ForeColor = Color.Black;
             tbMasterPassword.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbMasterPassword.IconLeft = Properties.Resources.Lock__64_;
-            tbMasterPassword.IconRight = Properties.Resources.hide;
+            tbMasterPassword.IconLeft = Resources.Lock__64_;
+            tbMasterPassword.IconRight = Resources.hide;
             tbMasterPassword.Location = new Point(43, 239);
             tbMasterPassword.Margin = new Padding(6, 7, 6, 7);
             tbMasterPassword.MaxLength = 30;
@@ -413,7 +415,7 @@
             tbUsername.Font = new Font("Segoe UI", 14F);
             tbUsername.ForeColor = Color.Black;
             tbUsername.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbUsername.IconLeft = Properties.Resources.Accounts__64_;
+            tbUsername.IconLeft = Resources.Accounts__64_;
             tbUsername.Location = new Point(40, 142);
             tbUsername.Margin = new Padding(5);
             tbUsername.MaxLength = 20;

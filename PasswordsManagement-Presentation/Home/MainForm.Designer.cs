@@ -1,4 +1,6 @@
-﻿namespace PasswordsManagemnt
+﻿using PasswordsManagement.Properties;
+
+namespace PasswordsManagemnt
 {
     partial class MainForm
     {
@@ -124,7 +126,7 @@
             btnLockVault.HoverState.BorderColor = Color.Transparent;
             btnLockVault.HoverState.FillColor = Color.FromArgb(235, 235, 235);
             btnLockVault.HoverState.ForeColor = Color.FromArgb(37, 99, 235);
-            btnLockVault.Image = PasswordsManagement.Properties.Resources.logout_32_;
+            btnLockVault.Image = Resources.logout_32_;
             btnLockVault.ImageAlign = HorizontalAlignment.Left;
             btnLockVault.ImageSize = new Size(30, 30);
             btnLockVault.Location = new Point(4, 981);
@@ -157,7 +159,7 @@
             btnAbout.HoverState.BorderColor = Color.Transparent;
             btnAbout.HoverState.FillColor = Color.FromArgb(235, 235, 235);
             btnAbout.HoverState.ForeColor = Color.FromArgb(37, 99, 235);
-            btnAbout.Image = PasswordsManagement.Properties.Resources.about_512_;
+            btnAbout.Image = Resources.about_512_;
             btnAbout.ImageAlign = HorizontalAlignment.Left;
             btnAbout.ImageSize = new Size(30, 30);
             btnAbout.Location = new Point(4, 920);
@@ -174,7 +176,7 @@
             // 
             guna2PictureBox1.BackColor = Color.White;
             guna2PictureBox1.CustomizableEdges = customizableEdges5;
-            guna2PictureBox1.Image = PasswordsManagement.Properties.Resources.vaultguard_logo;
+            guna2PictureBox1.Image = Resources.vaultguard_logo;
             guna2PictureBox1.ImageRotate = 0F;
             guna2PictureBox1.Location = new Point(-84, 0);
             guna2PictureBox1.Name = "guna2PictureBox1";
@@ -224,7 +226,7 @@
             btnFavorites.HoverState.BorderColor = Color.Transparent;
             btnFavorites.HoverState.FillColor = Color.FromArgb(235, 235, 235);
             btnFavorites.HoverState.ForeColor = Color.FromArgb(37, 99, 235);
-            btnFavorites.Image = PasswordsManagement.Properties.Resources.favorites__64_;
+            btnFavorites.Image = Resources.favorites__64_;
             btnFavorites.ImageAlign = HorizontalAlignment.Left;
             btnFavorites.ImageSize = new Size(30, 30);
             btnFavorites.Location = new Point(4, 336);
@@ -257,7 +259,7 @@
             btnAllAccounts.HoverState.BorderColor = Color.Transparent;
             btnAllAccounts.HoverState.FillColor = Color.FromArgb(255, 246, 239);
             btnAllAccounts.HoverState.ForeColor = Color.FromArgb(37, 99, 235);
-            btnAllAccounts.Image = PasswordsManagement.Properties.Resources.Accounts__64_;
+            btnAllAccounts.Image = Resources.Accounts__64_;
             btnAllAccounts.ImageAlign = HorizontalAlignment.Left;
             btnAllAccounts.ImageSize = new Size(30, 30);
             btnAllAccounts.Location = new Point(0, 271);
@@ -291,7 +293,7 @@
             btnSettings.HoverState.BorderColor = Color.Transparent;
             btnSettings.HoverState.FillColor = Color.FromArgb(235, 235, 235);
             btnSettings.HoverState.ForeColor = Color.FromArgb(37, 99, 235);
-            btnSettings.Image = PasswordsManagement.Properties.Resources.settings__64_;
+            btnSettings.Image = Resources.settings__64_;
             btnSettings.ImageAlign = HorizontalAlignment.Left;
             btnSettings.ImageSize = new Size(30, 30);
             btnSettings.Location = new Point(2, 530);
@@ -359,7 +361,7 @@
             btnHistory.HoverState.BorderColor = Color.Transparent;
             btnHistory.HoverState.FillColor = Color.FromArgb(235, 235, 235);
             btnHistory.HoverState.ForeColor = Color.FromArgb(37, 99, 235);
-            btnHistory.Image = PasswordsManagement.Properties.Resources.history__64_;
+            btnHistory.Image = Resources.history__64_;
             btnHistory.ImageAlign = HorizontalAlignment.Left;
             btnHistory.ImageSize = new Size(30, 30);
             btnHistory.Location = new Point(2, 461);
@@ -392,7 +394,7 @@
             btnPasswordgenerator.HoverState.BorderColor = Color.Transparent;
             btnPasswordgenerator.HoverState.FillColor = Color.FromArgb(235, 235, 235);
             btnPasswordgenerator.HoverState.ForeColor = Color.FromArgb(37, 99, 235);
-            btnPasswordgenerator.Image = PasswordsManagement.Properties.Resources.password_generator__64_;
+            btnPasswordgenerator.Image = Resources.password_generator__64_;
             btnPasswordgenerator.ImageAlign = HorizontalAlignment.Left;
             btnPasswordgenerator.ImageSize = new Size(30, 30);
             btnPasswordgenerator.Location = new Point(4, 400);
@@ -428,7 +430,7 @@
             btnAddAccount.HoverState.BorderColor = Color.Transparent;
             btnAddAccount.HoverState.FillColor = Color.FromArgb(255, 246, 239);
             btnAddAccount.HoverState.ForeColor = Color.FromArgb(37, 99, 235);
-            btnAddAccount.Image = PasswordsManagement.Properties.Resources.add_user__64_;
+            btnAddAccount.Image = Resources.add_user__64_;
             btnAddAccount.ImageAlign = HorizontalAlignment.Left;
             btnAddAccount.ImageSize = new Size(30, 30);
             btnAddAccount.Location = new Point(4, 207);
@@ -467,7 +469,7 @@
             btnDashbord.HoverState.BorderColor = Color.Transparent;
             btnDashbord.HoverState.FillColor = Color.FromArgb(255, 246, 239);
             btnDashbord.HoverState.ForeColor = Color.FromArgb(37, 99, 235);
-            btnDashbord.Image = PasswordsManagement.Properties.Resources.dashboard__64_;
+            btnDashbord.Image = Resources.dashboard__64_;
             btnDashbord.ImageAlign = HorizontalAlignment.Left;
             btnDashbord.ImageSize = new Size(30, 30);
             btnDashbord.Location = new Point(4, 142);
