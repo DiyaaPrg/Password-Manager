@@ -56,8 +56,6 @@ namespace PasswordsManagement
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Brandingpnl = new Guna.UI2.WinForms.Guna2Panel();
-            label5 = new Label();
-            label1 = new Label();
             guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             label4 = new Label();
             label3 = new Label();
@@ -80,6 +78,8 @@ namespace PasswordsManagement
             label7 = new Label();
             label6 = new Label();
             errorProvider1 = new ErrorProvider(components);
+            label5 = new Label();
+            label1 = new Label();
             Brandingpnl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
@@ -92,8 +92,8 @@ namespace PasswordsManagement
             // Brandingpnl
             // 
             Brandingpnl.Controls.Add(label5);
-            Brandingpnl.Controls.Add(label1);
             Brandingpnl.Controls.Add(guna2PictureBox2);
+            Brandingpnl.Controls.Add(label1);
             Brandingpnl.Controls.Add(label4);
             Brandingpnl.Controls.Add(label3);
             Brandingpnl.Controls.Add(label2);
@@ -106,29 +106,6 @@ namespace PasswordsManagement
             Brandingpnl.ShadowDecoration.CustomizableEdges = customizableEdges6;
             Brandingpnl.Size = new Size(686, 768);
             Brandingpnl.TabIndex = 0;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 10F);
-            label5.ForeColor = Color.DimGray;
-            label5.Location = new Point(213, 695);
-            label5.Name = "label5";
-            label5.Size = new Size(115, 19);
-            label5.TabIndex = 7;
-            label5.Text = "🔒 END-TO-END";
-            label5.Click += label5_Click;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 10F);
-            label1.ForeColor = Color.DimGray;
-            label1.Location = new Point(36, 695);
-            label1.Name = "label1";
-            label1.Size = new Size(153, 19);
-            label1.TabIndex = 6;
-            label1.Text = "🛡 ZERO KNOWLEDGE\n";
             // 
             // guna2PictureBox2
             // 
@@ -466,6 +443,28 @@ namespace PasswordsManagement
             // 
             errorProvider1.ContainerControl = this;
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 10F);
+            label5.ForeColor = Color.DimGray;
+            label5.Location = new Point(245, 695);
+            label5.Name = "label5";
+            label5.Size = new Size(162, 19);
+            label5.TabIndex = 9;
+            label5.Text = " 🗄️ Local Secure Storage";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 10F);
+            label1.ForeColor = Color.DimGray;
+            label1.Location = new Point(68, 695);
+            label1.Name = "label1";
+            label1.Size = new Size(150, 19);
+            label1.TabIndex = 8;
+            label1.Text = "🔒AES-256 Encryption\r\n";
+            // 
             // frmCreateAccount
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -499,8 +498,6 @@ namespace PasswordsManagement
         private Label label2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
-        private Label label5;
-        private Label label1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Label label7;
         private Label label6;
@@ -517,5 +514,7 @@ namespace PasswordsManagement
         private Label label12;
         private Guna.UI2.WinForms.Guna2ProgressBar guna2ProgressBar1;
         private ErrorProvider errorProvider1;
+        private Label label5;
+        private Label label1;
     }
 }
