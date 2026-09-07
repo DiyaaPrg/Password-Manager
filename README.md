@@ -131,10 +131,11 @@ The application follows a **3-Tier Architecture**:
 Example:
 
 ```markdown
-![Login](screenshots/login.png)
-![Accounts](screenshots/accounts.png)
-![History](screenshots/history.png)
-![Settings](screenshots/settings.png)
+![Login](screenshots/Log in.png)
+![Home](screenshots/Home.png)
+![Add Account](screenshots/Add New Account.png)
+![History](screenshots/History.png)
+![Settings](screenshots/Settings.png)
 ```
 
 ---
