@@ -158,7 +158,7 @@ Before running the application, make sure you have the following installed:
 
 ### Installation & Setup
 - Clone the Repository: git clone https://github.com/your-username/PasswordsManagement.git
-- Database Setup: Restore the PasswordsManagement.bak file in SSMS.
+- Database Setup: Run the PasswordsManagementDB.sql file in SSMS.
 - Build and Run: Build the solution to restore NuGet packages and press F5.
 
 
