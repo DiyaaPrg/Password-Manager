@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordsManagement-Busines
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordsManagement-DataAccess", "PasswordsManagement-DataAccess\PasswordsManagement-DataAccess.csproj", "{9A27A43D-9FFF-4856-3988-57D949F5C62E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordsManagement", "PasswordsManagement-Presentation\PasswordsManagement.csproj", "{C4250CF6-41B2-B3DF-CDE3-0F3DD9E76E94}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = ".PasswordsManagement", "PasswordsManagement-Presentation\.PasswordsManagement.csproj", "{CDB8463F-697D-900F-01E1-88884096B0A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{9A27A43D-9FFF-4856-3988-57D949F5C62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A27A43D-9FFF-4856-3988-57D949F5C62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A27A43D-9FFF-4856-3988-57D949F5C62E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C4250CF6-41B2-B3DF-CDE3-0F3DD9E76E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C4250CF6-41B2-B3DF-CDE3-0F3DD9E76E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C4250CF6-41B2-B3DF-CDE3-0F3DD9E76E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C4250CF6-41B2-B3DF-CDE3-0F3DD9E76E94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDB8463F-697D-900F-01E1-88884096B0A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB8463F-697D-900F-01E1-88884096B0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB8463F-697D-900F-01E1-88884096B0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB8463F-697D-900F-01E1-88884096B0A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
