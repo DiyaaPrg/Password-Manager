@@ -1,0 +1,51 @@
+# Visual Studio / .NET
+.vs/
+bin/
+obj/
+TestResults/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+out/
+
+# Visual Studio user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# Logs
+*.log
+
+# Local database files
+*.mdf
+*.ldf
+*.ndf
+
+# Temporary / backup files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Rider
+.idea/
+
+# Generated files
+GeneratedFiles/
