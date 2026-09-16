@@ -1,4 +1,5 @@
 ﻿using PasswordManagement_Business;
+using PasswordsManagement.Global;
 using PasswordsManagement_DataAccess;
 using System;
 using System.Collections.Generic;
@@ -103,7 +104,7 @@ namespace PasswordsManagement_Business
 
         private bool _AddNew()
         {
-            if (!clsValidation2.ValidateRequired(this))
+            if (!clsValidation.ValidateRequired(this))
                 return false;
 
             this.ID = clsHistoryData.AddNewHistory(this.Action, this.Date, this.Service, (int)this.Status, this.Username);
