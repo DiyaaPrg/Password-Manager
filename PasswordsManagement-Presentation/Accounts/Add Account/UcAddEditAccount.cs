@@ -197,17 +197,17 @@ namespace PasswordsManagement.Add_Account
             if (_CurrentAccount.Save())
             {
                 if (_Mode == enMode.AddNew)
-                    clsGlobal.RecordActivity("Account Added", _CurrentAccount.Service, PasswordsManagement_Business.clsHistory.enStatus.Success, _CurrentAccount.Username);
+                    clsGlobal.RecordActivity("Account Added", _CurrentAccount.Service, clsHistory.enStatus.Success, _CurrentAccount.Username);
                 else
                 {
-                    clsGlobal.RecordActivity("Account Updated", _CurrentAccount.Service, PasswordsManagement_Business.clsHistory.enStatus.Success, _CurrentAccount.Username);
+                    clsGlobal.RecordActivity("Account Updated", _CurrentAccount.Service, clsHistory.enStatus.Success, _CurrentAccount.Username);
 
                     if (_DoesPasswordChanged())
-                        clsGlobal.RecordActivity("Password Changed", _CurrentAccount.Service, PasswordsManagement_Business.clsHistory.enStatus.Success, _CurrentAccount.Username);
+                        clsGlobal.RecordActivity("Password Changed", _CurrentAccount.Service, clsHistory.enStatus.Success, _CurrentAccount.Username);
 
                 }
 
-                MessageBox.Show("Data Saved Sucessfully!", "Add/Edit Account", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Data Saved Successfully!", "Add/Edit Account", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 lblTitle.Text = "Update Account";
                 // raise event to add dashbord to pnl main:

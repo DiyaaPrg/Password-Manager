@@ -1,5 +1,7 @@
-﻿using PasswordsManagement_Business;
+﻿using PasswordsManagement.Global;
+using PasswordsManagement_Business;
 using PasswordsManagement_DataAccess;
+using System.ComponentModel.DataAnnotations;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -11,15 +13,21 @@ namespace PasswordManagement_Business
         private enMode _Mode;
 
         public int? ID { set; get; }
+        [Required]
         public string UserName { set; get; }
+        [Required]
         public string EncryptedVerification { set; get; }
+        [Required]
         public string Password { set; get; }
+        [Required]
         public string Salt { set; get; }
+        [Required]
         public string PasswordHint { set; get; }
+        [Required]
         public string EncryptedMEK { set; get; }
-
+        [Required]
         public DateTime? CreatedDate { set; get; }
-
+        [Required]
         public bool IsActive { set; get; }
 
         public clsUser()
@@ -107,6 +115,9 @@ namespace PasswordManagement_Business
             this.EncryptedVerification = Convert.ToBase64String(tuple.Item2);
             this.EncryptedMEK = Convert.ToBase64String(tuple.Item3);
 
+            if (!clsValidation.ValidateRequired(this))
+                return false;
+
             this.ID = clsUserData.AddNewUser(
                 this.EncryptedVerification,
                 this.UserName,
@@ -121,6 +132,9 @@ namespace PasswordManagement_Business
 
         private bool _Update()
         {
+            if (!clsValidation.ValidateRequired(this))
+                return false;
+
             return clsUserData.UpdateUser(
                 this.ID!.Value,
                 this.EncryptedVerification,

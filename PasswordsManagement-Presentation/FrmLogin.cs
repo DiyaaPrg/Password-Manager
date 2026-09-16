@@ -118,7 +118,8 @@ namespace PasswordsManagement
                 }
 
                 MessageBox.Show($"Wrong Password! Try again!", "Wrong Credentials", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                clsGlobal.RecordActivity("Failed Login", "  ---  ", PasswordsManagement_Business.clsHistory.enStatus.Fail, "System");
+
+                clsHistory.AddRecord(new clsHistory("Failed Login",  "  ---  ", PasswordsManagement_Business.clsHistory.enStatus.Fail, "System"));
 
                 lblHinttitle.Visible = true;
 

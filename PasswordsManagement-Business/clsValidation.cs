@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace PasswordsManagement.Global
 {
-    internal class clsValidation
+    public class clsValidation
     {
         public static bool ValidateEmail(string emailAddress)
         {
@@ -53,6 +55,32 @@ namespace PasswordsManagement.Global
             string pattern = @"^(https?:\/\/)?([\w\-]+\.)+[\w\-]{2,}(\/\S*)?$";
             return Regex.IsMatch(url, pattern);
         }
+
+
+        public static bool ValidateRequired(object obj)
+        {
+            Type classType = obj.GetType();
+
+            foreach (PropertyInfo property in classType.GetProperties())
+            {
+                if (property.IsDefined(typeof(RequiredAttribute)))
+                {
+                    var value = property.GetValue(obj);
+
+                    if (value == null)
+                        return false;
+
+                    if (property.PropertyType == typeof(string) &&
+                        string.IsNullOrWhiteSpace((string)value))
+                    {
+                        return false;
+                    }
+                }
+            }
+
+            return true;
+        }
+
     }
 
 }

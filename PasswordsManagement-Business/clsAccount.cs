@@ -1,6 +1,9 @@
-﻿using PasswordsManagement_Business;
+﻿using PasswordsManagement.Global;
+using PasswordsManagement_Business;
 using PasswordsManagement_DataAccess;
+using System.ComponentModel.DataAnnotations;
 using System.Data;
+using System.Reflection;
 
 namespace PasswordManagement_Business
 {
@@ -11,7 +14,9 @@ namespace PasswordManagement_Business
         private enum enMode { AddNew = 1, Update = 2 };
 
         public int? ID { set; get; }
+        [Required]
         public string? Service { set; get; }
+        [Required]
         public int? AccountTypeID { set; get; }
         public string AccountTypeName { set; get; }
 
@@ -28,13 +33,18 @@ namespace PasswordManagement_Business
             }
         }
         public string? Website { set; get; }
+        [Required]
         public string? EncryptedPassword { set; get; }
+        [Required]
         public DateTime? CreatedDate { set; get; }
+        [Required]
         public DateTime? LastModifiedDate { set; get; }
         public string? Notes { set; get; }
         public bool IsFavorite { set; get; }
         public bool IsActive { set; get; }
+        [Required]
         public string IV { set; get; }
+        [Required]
         public string Username { set; get; }
         public string? Email { set; get; }
         public string? PhoneNumber { set; get; }
@@ -110,12 +120,38 @@ namespace PasswordManagement_Business
             }
         }
 
+        private bool _Validate()
+        {
+
+            if (!clsValidation.ValidateRequired(this))
+                return false;
+
+            if (!string.IsNullOrWhiteSpace(this.Email) && !clsValidation.ValidateEmail(this.Email))
+            {
+                return false;
+            }
+
+            if (!string.IsNullOrWhiteSpace(this.PhoneNumber) && !clsValidation.IsPhoneNumber(this.PhoneNumber))
+            {
+                return false;
+            }
+
+            if (string.IsNullOrWhiteSpace(this.Notes))
+                this.Notes = null;
+
+            return true;
+        }
+
         private bool _AddNew()
         {
             var result = clsEncryption.Encrypt(this.EncryptedPassword, clsSecurityConstantscs.MasterKey);
             
             this.EncryptedPassword = result.CipherText;
             this.IV = result.IV;
+
+            //validation:
+            if (!_Validate())
+                return false;
 
 
             this.ID = clsAccountData.AddNewAccount(
@@ -142,6 +178,10 @@ namespace PasswordManagement_Business
             this.EncryptedPassword = result.CipherText;
             this.IV = result.IV;
 
+            //validation:
+            if (!_Validate())
+                return false;
+
             return clsAccountData.UpdateAccount(
                 this.ID!.Value,
                 this.Service!,
@@ -167,7 +207,6 @@ namespace PasswordManagement_Business
         {
             return clsAccountData.GetFavoriteAccounts();
         }
-
 
         public bool Save()
         {

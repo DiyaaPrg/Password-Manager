@@ -25,7 +25,9 @@ namespace AccountsManagement
                 Application.Run(new FrmLogin());
 
             }
-            //Application.Run(new Frmexample());
+
+
+
         }
     }
 }

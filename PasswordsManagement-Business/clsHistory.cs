@@ -2,6 +2,7 @@
 using PasswordsManagement_DataAccess;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Data;
 using System.Linq;
 using System.Text;
@@ -18,9 +19,10 @@ namespace PasswordsManagement_Business
         public enum enStatus { Fail=0, Success=1}
         private enMode _Mode;
         public int? ID { set; get; }
+        [Required]
         public string Action { set; get; }
+        [Required]
         public DateTime Date { set; get; }
-
         public string Service { set; get; }
 
         public enStatus Status { set; get; }
@@ -44,6 +46,16 @@ namespace PasswordsManagement_Business
             this.ID = ID;
             this.Action = action;
             this.Date = date;
+            this.Service = service;
+            this.Status = status;
+            this.Username = username;
+
+            _Mode = enMode.Update;
+        }
+
+        public clsHistory(string action, string service, enStatus status, string username)
+        {
+            this.Action = action;
             this.Service = service;
             this.Status = status;
             this.Username = username;
@@ -91,6 +103,9 @@ namespace PasswordsManagement_Business
 
         private bool _AddNew()
         {
+            if (!clsValidation2.ValidateRequired(this))
+                return false;
+
             this.ID = clsHistoryData.AddNewHistory(this.Action, this.Date, this.Service, (int)this.Status, this.Username);
             return (this.ID != -1);
         }
@@ -118,6 +133,12 @@ namespace PasswordsManagement_Business
         public static bool DeleteAllRecords()
         {
             return clsHistoryData.DeleteAllRecords();
+        }
+
+        public static bool AddRecord(clsHistory record)
+        {
+            record.Date = DateTime.Now;
+            return record.Save();
         }
     }
 }
