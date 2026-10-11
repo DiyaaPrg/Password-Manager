@@ -70,7 +70,7 @@ namespace PasswordsManagement.Global
                     if (value == null)
                         return false;
 
-                    if (property.PropertyType == typeof(string) &&
+                    if (value is string &&
                         string.IsNullOrWhiteSpace((string)value))
                     {
                         return false;
